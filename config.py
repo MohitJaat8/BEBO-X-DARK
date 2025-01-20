@@ -8,11 +8,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("21520210", None))
+API_HASH = getenv("91b3826d3a3062521d1d05405be4b0b6", None)
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("6858692873:AAHIb3j5bQQqDQShBj7lG0oUYXfX24rgzsY", None)
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -22,11 +22,11 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOGGER_ID = int(getenv("-1002379786490", None))
+LOG_GROUP_ID = int(getenv("-1002379786490", None))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
+OWNER_ID = int(getenv("OWNER_ID", "6828153648"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DARK_X_NETWORKS")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DarkSupportchat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -64,7 +64,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "907c6a054c214005aeae1fd
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "2000"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "2000"))
 
 # Telegram audio and video file size limit (in bytes)
